@@ -1,0 +1,158 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+	color: #777777;
+	background-image: url('../images/cork-wallet.png');
+}
+
+header {
+	height: 87px;
+	background-color: #ffffff;
+	border-color: #cccccc;	
+}
+
+main {
+	width: 960px;
+	margin: auto;
+}
+ 
+content {
+	position: relative;
+	top: 40px;
+ 	width: 650px;
+ 	height: 350px;	/* temporary fo debug*/
+ 	display: inline-block;
+	background-color: #ffffff;
+	border-color: #dddddd;
+ }
+
+aside {
+	position: relative;
+	top: 40px;
+	width: 270px;
+	height: 200px;
+	float: right;
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+footer {
+	height: 80px;
+	line-height: 80px;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	background-color: #666666;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 22px;
+	line-height: 57px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin: 0 0 0 32px;	
+}
+
+h3 {
+	display: inline-block;
+	font-size: 19px;
+	line-height: 42px;
+	font-weight: bold;	
+	color: #4aaaa5;
+	margin: 0 auto;	
+}
+
+div.header-box {
+	margin: auto;
+	width: 960px;
+	background-color: #ffffff;
+}
+
+div.name {
+	display: inline-block;
+	width: 250px;
+	height: 87px;
+	line-height: 87px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 0;
+	margin: 0;
+}
+
+div.content-box {
+	margin: 0 32px;
+}
+
+content.aboutme hr {
+	border-style: inset;
+	border-width: 2px;
+}
+
+content.aboutme img {
+	width: 180px;
+	height: 135px;
+	float: left;
+	margin: 10px;
+}
+aside h3, aside nav span {
+	margin-left: 25px;
+ }
+
+aside.connect hr {
+	border-style: inset;
+	border-width: 1px;
+	margin: 30px;
+}
+
+nav.horizontal-text-links {
+	float: right;
+	width: 270px;
+	line-height: 87px;
+}
+
+nav.horizontal-icon-links {
+	float: right;
+	width: 270px;
+	line-height: 87px;
+}
+
+nav.horizontal-icon-links img {
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+}
+
+a {
+	font-size: 16px;
+	color: #999999;
+	margin: 0 0 0 20px;
+}
+
+a:hover, a:focus, a:active {
+/**/
+}
+a:link {
+	text-decoration: none;
+	cursor: auto;
+}
+/*nav img {*/
+/*	width: 75px;*/
+/*	height: 75px;*/
+/*}*/
+
+div.wrap {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.heady {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
